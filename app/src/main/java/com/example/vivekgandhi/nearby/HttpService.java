@@ -20,11 +20,6 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-
-
-/**
- * Created by Ravi on 04/04/15.
- */
 public class HttpService extends IntentService {
 
     private static String TAG = HttpService.class.getSimpleName();

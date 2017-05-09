@@ -10,9 +10,6 @@ import android.content.SharedPreferences.Editor;
 
 import java.util.HashMap;
 
-/**
- * Created by Ravi on 08/07/15.
- */
 public class PrefManager {
     // Shared Preferences
     SharedPreferences pref;

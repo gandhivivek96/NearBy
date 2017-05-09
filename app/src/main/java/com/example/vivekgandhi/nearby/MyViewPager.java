@@ -5,14 +5,12 @@ package com.example.vivekgandhi.nearby;
  */
 
 
-        import android.content.Context;
-        import android.support.v4.view.ViewPager;
-        import android.util.AttributeSet;
-        import android.view.MotionEvent;
+import android.content.Context;
+import android.support.v4.view.ViewPager;
+import android.util.AttributeSet;
+import android.view.MotionEvent;
 
-/**
- * Created by Ravi on 08/07/15.
- */
+
 public class MyViewPager extends ViewPager {
 
     public MyViewPager(Context context) {

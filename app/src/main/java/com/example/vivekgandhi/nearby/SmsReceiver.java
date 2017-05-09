@@ -3,21 +3,15 @@ package com.example.vivekgandhi.nearby;
 /**
  * Created by Vivek Gandhi on 5/9/2017.
  */
+ import android.content.BroadcastReceiver;
+ import android.content.Context;
+ import android.content.Intent;
+ import android.os.Bundle;
+ import android.telephony.SmsMessage;
+ import android.util.Log;
 
 
 
-        import android.content.BroadcastReceiver;
-        import android.content.Context;
-        import android.content.Intent;
-        import android.os.Bundle;
-        import android.telephony.SmsMessage;
-        import android.util.Log;
-
-
-
-/**
- * Created by Ravi on 09/07/15.
- */
 public class SmsReceiver extends BroadcastReceiver {
     private static final String TAG = SmsReceiver.class.getSimpleName();
 
